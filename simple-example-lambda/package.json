@@ -1,0 +1,29 @@
+{
+  "name": "lambda-example",
+  "version": "0.1.1",
+  "author": "MAZ",
+  "type": "module",
+  "devDependencies": {
+    "@aws-sdk/client-lambda": "^3.564.0",
+    "aws-sdk": "^2.1608.0",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "cli": "node ../tools/cli.js",
+    "build": "rm -Rf dist && tsc && sh ../tools/zipit.sh"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "slowTestThreshold": 40,
+    "testTimeout": 10800000,
+    "verbose": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "dotenv": "^16.4.5",
+    "o1js": "^1.0.1",
+    "zkcloudworker": "^0.4.3"
+  }
+}
