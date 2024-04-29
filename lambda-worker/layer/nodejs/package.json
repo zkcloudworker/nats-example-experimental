@@ -1,0 +1,12 @@
+{
+  "name": "simple-example-lambda-layer",
+  "version": "0.1.1",
+  "author": "MAZ",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "dotenv": "^16.4.5",
+    "o1js": "^1.0.1",
+    "zkcloudworker": "^0.4.3"
+  }
+}

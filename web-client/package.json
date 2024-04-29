@@ -1,0 +1,25 @@
+{
+  "name": "nats-web-client",
+  "version": "0.1.1",
+  "author": "MAZ",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "npx tsx start.ts"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "slowTestThreshold": 40,
+    "testTimeout": 10800000,
+    "verbose": true
+  },
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nats": "^2.23.0",
+    "o1js": "^1.0.1"
+  }
+}
