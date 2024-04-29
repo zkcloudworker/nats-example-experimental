@@ -121,6 +121,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nats@npm:^2.23.0":
+  version: 2.23.0
+  resolution: "nats@npm:2.23.0"
+  dependencies:
+    nkeys.js: "npm:1.1.0"
+  checksum: 10c0/dd5fe5c9232318a84e4551c86de8b2257b8ef273103ec810bfd19da719fb43bd40a7b0bbca16523894801e5e55928bea8926f02b849f650a9b09ae7cc3173816
+  languageName: node
+  linkType: hard
+
+"nkeys.js@npm:1.1.0":
+  version: 1.1.0
+  resolution: "nkeys.js@npm:1.1.0"
+  dependencies:
+    tweetnacl: "npm:1.0.3"
+  checksum: 10c0/44ff8d61e46d2b345351ed7844d66036a815aeca23927def6ca258e27a18a1678fe5ab161c5cf0b6e3a3993a945d422b71036986d09669b214540c8491478bef
+  languageName: node
+  linkType: hard
+
 "node-fetch@npm:^2.6.1":
   version: 2.7.0
   resolution: "node-fetch@npm:2.7.0"
@@ -171,6 +189,7 @@ __metadata:
   dependencies:
     "@types/aws-lambda": "npm:^8.10.137"
     dotenv: "npm:^16.4.5"
+    nats: "npm:^2.23.0"
     o1js: "npm:^1.0.1"
     zkcloudworker: "npm:^0.4.3"
   languageName: unknown
@@ -187,6 +206,13 @@ __metadata:
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 10c0/e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
+  languageName: node
+  linkType: hard
+
+"tweetnacl@npm:1.0.3":
+  version: 1.0.3
+  resolution: "tweetnacl@npm:1.0.3"
+  checksum: 10c0/069d9df51e8ad4a89fbe6f9806c68e06c65be3c7d42f0701cc43dba5f0d6064686b238bbff206c5addef8854e3ce00c643bff59432ea2f2c639feab0ee1a93f9
   languageName: node
   linkType: hard
 

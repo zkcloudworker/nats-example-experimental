@@ -6,6 +6,7 @@
   "dependencies": {
     "@types/aws-lambda": "^8.10.137",
     "dotenv": "^16.4.5",
+    "nats": "^2.23.0",
     "o1js": "^1.0.1",
     "zkcloudworker": "^0.4.3"
   }

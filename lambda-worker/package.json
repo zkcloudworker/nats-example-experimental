@@ -1,5 +1,5 @@
 {
-  "name": "lambda-example",
+  "name": "nats-lambda-example",
   "version": "0.1.1",
   "author": "MAZ",
   "type": "module",
@@ -9,8 +9,8 @@
     "typescript": "^5.4.5"
   },
   "scripts": {
-    "cli": "node ../../tools/cli.js",
-    "build": "rm -Rf dist && tsc && sh ../../tools/zipit.sh"
+    "cli": "node ../tools/cli.js",
+    "build": "rm -Rf dist && tsc && sh ../tools/zipit.sh"
   },
   "jest": {
     "preset": "ts-jest",
@@ -23,7 +23,8 @@
   "dependencies": {
     "@types/aws-lambda": "^8.10.137",
     "dotenv": "^16.4.5",
+    "nats": "^2.23.0",
     "o1js": "^1.0.1",
-    "zkcloudworker": "^0.4.3"
+    "zkcloudworker": "0.4.3"
   }
 }
